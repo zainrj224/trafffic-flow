@@ -1,0 +1,19 @@
+# Flutter / Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+pubspec.lock
+# Generated Android project output
+app/build/
+app/.dart_tool/
+# NEVER commit signing keys or passwords
+*.jks
+*.keystore
+key.properties
+# IDE / OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

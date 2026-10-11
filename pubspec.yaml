@@ -1,0 +1,26 @@
+name: neon_highway
+description: Endless 3D highway racing game with 7 vehicles, nitro, rain and a day/night cycle.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.10.0
+  webview_flutter_web: ^0.2.3   # Chrome preview (iframe)
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/game/
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: assets/icon.png
